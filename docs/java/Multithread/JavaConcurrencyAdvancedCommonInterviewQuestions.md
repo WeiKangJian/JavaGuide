@@ -599,7 +599,7 @@ tryReleaseShared(int)//共享方式。尝试释放资源，成功则返回true�
 - http://www.cnblogs.com/waterystone/p/4920797.html
 - https://www.cnblogs.com/chengxiao/archive/2017/07/24/7141160.html
 
-### 6.3. AQS 组件总结
+### 6.3. AQS 组件总
 
 - **Semaphore(信号量)-允许多个线程同时访问：** synchronized 和 ReentrantLock 都是一次只允许一个线程访问某个资源，Semaphore(信号量)可以指定多个线程同时访问某个资源。
 - **CountDownLatch （倒计时器）：** CountDownLatch是一个同步工具类，用来协调多个线程之间的同步。这个工具通常用来控制线程等待，它可以让某一个线程等待直到倒计时结束，再开始执行。
